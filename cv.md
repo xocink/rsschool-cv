@@ -1,7 +1,7 @@
 # Petukh Dmitry
 
 ### My contacts :
- - **Email** : [petuhdima@gmail.com](mailto:petuhdima@gmail.com My email);
+ - **Email** : [petuhdima@gmail.com](mailto:petuhdima@gmail.com);
  - **Phone number** : +375297844725;
  - **VK** : https://vk.com/id160080736;
  
