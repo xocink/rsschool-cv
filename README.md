@@ -1,2 +1,2 @@
 # rsschool-cv
-https://xocink/rsschool-cv/cv
+https://xocink.github.io/rsschool-cv/cv
