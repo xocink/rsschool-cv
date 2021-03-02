@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pepuch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DotGothic16">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body>
+<header>
+    <div class="header__container">
+        <div class="header__avatar">
+            <figure>
+                <img class="ava" src="ava.jpg" alt="avatar" width="162">
+            </figure>
+        </div>
+        <div class="header__info">
+            <div class="header__contacts">
+                <h1 class="header__name">Petukh Dmitry</h1>
+                <details>
+                    <summary>Contacts</summary>
+                    <ul>
+                        <li><a href="mailto:petuhdima@gmail.com">Email</a></li>
+                        <li><a href="https://vk.com/mr.akuma">VK</a></li>
+                        <li><a href="https://github.com/xocink">GitHub</a></li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <section class="container__item">
+        <h3>About me </h3>
+        <p>My goal is to improve my skills and gain hands-on programming experience to become a
+            competitive professional.
+            My strong points are a flexible mindset, the ability to self-study and the ability to study a lot of
+            information
+            at a time.</p>
+    </section>
+    <hr>
+    <section class="container__item">
+        <h3>Skills</h3>
+        <ul>
+            <li>Basic knowledge of the programming language
+                <ul>
+                    <li>Python and Django framework</li>
+                    <li>JavaScript</li>
+                </ul>
+            </li>
+            <li>Basic knowledge of the database
+                <ul>
+                    <li>PostgresSQL</li>
+                </ul>
+            </li>
+            <li>Git</li>
+            <li>HTML/CSS</li>
+        </ul>
+    </section>
+    <hr>
+    <section class="container__item">
+        <h3>Code examples</h3>
+        <p>This function checks if a word is an anagram</p>
+        <pre>
+        <code>
+        var isAnagram = function (test, original) {
+            let line_1 = test.toLowerCase().split('').sort().join('')
+            let line_2 = original.toLowerCase().split('').sort().join('')
+            return  line_1 == line_2
+        }
+        </code>
+        </pre>
+    </section>
+    <hr>
+    <section class="container__item">
+        <h3>Education</h3>
+        <ul>
+            <li><a href="https://learn.javascript.ru">JavaScript</a></li>
+            <li><a href="https://www.udemy.com/course/bestpython/learn/lecture/17327938#overview">Udemy python
+                course</a></li>
+            <li>Read couple book on Python and JavaScript</li>
+        </ul>
+    </section>
+    <hr>
+    <section class="container__item">
+        <h3>English level</h3>
+        <p>A2/B1</p>
+    </section>
+    <hr>
+    <footer>
+        <a href="mailto:petuhdima@gmail.com">Email</a>
+        <a href="https://vk.com/mr.akuma">VK</a>
+        <a href="https://github.com/xocink">GitHub</a>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+h1 {
+    font-family: DotGothic16;
+}
+
+a { color: blue;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover {
+    color: chocolate;
+    font-family: Montserrat;
+    font-size: 21px;
+}
+
+
+footer{
+    text-align: center;
+}
+
+.ava {
+    border-radius: 15%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.header__container {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.header__contacts {
+
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+
+.header__info {
+    display: flex;
+    justify-content: flex-end;
+}
