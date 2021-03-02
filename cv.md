@@ -26,11 +26,13 @@
  
 ### Code examples 
  
- ` var isAnagram = function (test, original) {
+ ```
+ var isAnagram = function (test, original) {
             let line_1 = test.toLowerCase().split('').sort().join('')
             let line_2 = original.toLowerCase().split('').sort().join('')
             return  line_1 == line_2
-        }`
+        }
+```
  
 ### Experience 
  
